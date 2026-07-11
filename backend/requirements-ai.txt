@@ -1,0 +1,21 @@
+ultralytics>=8.3.0
+opencv-python-headless>=4.10.0
+pillow>=10.0.0
+numpy>=1.26.0
+
+# CPU detector comparison: YOLO ONNX + non-YOLO torchvision detectors.
+torch>=2.3.0
+torchvision>=0.18.0
+onnxruntime>=1.18.0
+onnxslim>=0.1.35
+onnx>=1.16.0
+
+# Optional VLM scene/object analysis. First run downloads models to local Hugging Face cache.
+transformers>=4.53.0
+accelerate>=0.33.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+safetensors>=0.4.0
+huggingface-hub>=0.30.0
+qwen-vl-utils>=0.0.8
+num2words>=0.5.13
